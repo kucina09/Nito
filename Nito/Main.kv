@@ -1,0 +1,11 @@
+<CameraApp>:
+    BoxLayout:
+        orientation: 'vertical'
+
+        Camera:
+            id: camera
+            resolution: (640, 480)
+
+        Button:
+            text: 'Zrób zdjęcie'
+            on_press: root.capture()
